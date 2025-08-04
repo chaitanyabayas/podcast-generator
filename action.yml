@@ -1,6 +1,6 @@
 name: "Podcast Generator Test by Chaitanya"
 author: "Chaitanya Bayas"
-Description: "Generates feed for podcast from YAML file"
+Description: "Generate feed for podcast"
 runs:
   using: "docker"
   image: "Dockerfile"
@@ -9,10 +9,10 @@ branding:
   color: "red"
 inputs:
   email:
-    description: The commiter's email address
+    description: "The commiter's email address"
     required: true
     default: ${{ github.actor }}@localhost
   name:
-    description: The commiter's name
+    description: "The commiter's name"
     required: true
     default: ${{ github.actor }}
