@@ -1,6 +1,6 @@
 name: "Podcast Generator Test by Chaitanya"
 author: "Chaitanya Bayas"
-Description: "Generate feed for podcast"
+description: "Generate feed for podcast for YAML file"
 runs:
   using: "docker"
   image: "Dockerfile"
