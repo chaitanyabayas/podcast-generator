@@ -1,6 +1,6 @@
 name: "Podcast Generator Test by Chaitanya"
 author: "Chaitanya Bayas"
-Description: "Generates a feed for a podcast from a YAML file"
+Description: "Generates a feed for a podcast from a YAML file. This is test for LinkedIn Learning."
 runs:
   using: "docker"
   image: "Dockerfile"
